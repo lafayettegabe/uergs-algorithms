@@ -1,3 +1,9 @@
+/*
+Lista Extra
+Elabore um programa para a partir de uma data informada de maneira separada dia, mês e ano. Faça as consistências para verificar se é uma data válida.
+Usando as consistências do programa 1. Informe o dia seguinte, a partir de uma data (dia, mês e ano) informada pelo teclado. A saída deve ter dia, mês e ano.
+*/
+
 #include <stdio.h>
 
 int main() {
