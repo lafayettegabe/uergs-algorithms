@@ -1,42 +1,27 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main()
-{
-    int tam, tam_, i;
-    printf("Tamanho do quadrado: ");
-    scanf("%d", &tam);
-    tam_ = tam;
-    i = tam;
-    while(i){
-        printf("*");
-        i--;
-    }
-    printf("\n");
-    if(tam > 0 || tam < 20)
-    {
-        while(tam_){
-        switch (tam_)
-        {
-            case 1:
-                i = tam;
-                while(i){
-                    printf("*");
-                    i--;
-                }
-                printf("\n");
-                break;
-            default:
-                printf("*");
-                i = tam-2;
-                while(i){
-                    printf(" ");
-                    i--;
-                }
-                printf("*\n");
-            
-        }
-        tam_--;
-        }
-        
-    }
+int main() {
+	int tam = 21; // Pra entrar no primeiro loop.
+	while(tam < 0 || tam > 20)
+	{
+		printf("Digite um tamanho menor que 20: \n");
+		scanf("%d", &tam);
+	}
+	
+	for(int i = tam; i > 0 ; i--) // Teto
+		printf("* ");
+	printf("\n");
+	
+	for(int i = tam; i > 0 ; i--) // Meio
+		{
+			printf("*");
+			for(int j = tam*2-3; j > 0 ; j--)
+				printf(" ");
+			printf("*");
+			printf("\n");
+		}
+		
+	for(int i = tam; i > 0 ; i--) // Chão
+		printf("* ");
+	printf("\n");
 }
