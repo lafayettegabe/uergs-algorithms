@@ -1,4 +1,4 @@
-# Urðr
+# UERGS-C
 A C study repository.
 
 ## Coding Challenges
