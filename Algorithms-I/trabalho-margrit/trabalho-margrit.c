@@ -131,7 +131,7 @@ void porTipo(node *head) {
         ptr = ptr->next;
         
     }
-    (count > 0) ? printf("\nHa %d rolos do tipo %d em estoque.", count, tipo) : ("\nNao ha nenhum rolo do tipo %d em estoque.", tipo);
+    (count > 0) ? printf("\nHa %d rolos do tipo %d em estoque.", count, tipo) : printf("\nNao ha nenhum rolo do tipo %d em estoque.", tipo);
 }
 
 void semEstoque(node *head) {
