@@ -162,7 +162,7 @@ void totalEstoque(node *head) {
         count += ptr->quantidade;
         ptr = ptr->next;
     }
-    (count > 0) ? printf("\nHa %d rolos em estoque.", count) : ("\nNao ha nenhum rolo em estoque.");
+    (count > 0) ? printf("\nHa %d rolos em estoque.", count) : printf("\nNao ha nenhum rolo em estoque.");
 }
 
 void metrosQuadradosPerRolo(node *head) {
@@ -180,7 +180,7 @@ void metrosQuadradosPerRolo(node *head) {
         }
         ptr = ptr->next;
     }
-    (count > 0) ? printf("\nHa %d metros quadrados de tecido em estoque.", count) : ("\nNao ha nenhum tecido em estoque.");
+    (count > 0) ? printf("\nHa %d metros quadrados de tecido em estoque.", count) : printf("\nNao ha nenhum tecido em estoque.");
 
 }
 
