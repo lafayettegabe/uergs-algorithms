@@ -32,13 +32,13 @@ int menu(node **head) {
     }
     switch (input)
     {
-    case 1: cadastrar(head);                   return 1;
-    case 2: remover(head);                     return 1;
-    case 3: porTipo(*head);                    return 1;
-    case 4: semEstoque(*head);                 return 1;
-    case 5: totalEstoque(*head);               return 1;
-    case 6: metrosQuadradosPerRolo(*head);     return 1;
-    case 0:                                    return 0;
+        case 1: cadastrar(head);                   return 1;
+        case 2: remover(head);                     return 1;
+        case 3: porTipo(*head);                    return 1;
+        case 4: semEstoque(*head);                 return 1;
+        case 5: totalEstoque(*head);               return 1;
+        case 6: metrosQuadradosPerRolo(*head);     return 1;
+        case 0:                                    return 0;
     }
 }
 
