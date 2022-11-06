@@ -27,7 +27,7 @@ int main() {
 int menu(node **head) {
     int input = 10;
     while(input < 0 || input > 6) {
-        printf("\n1 - Cadastrar tecido \n2 - Remover tecido \n3 - Quantidade de rolos estocados por tipo de tecido \n4 - Tipos de tecido sem estoque \n5 - Quantidade total de rolos de tecido estocados \n6 - Quantidade em metros quadrados estocados \n0 - Fim\n\n");
+        printf("\n\n1 - Cadastrar tecido \n2 - Remover tecido \n3 - Quantidade de rolos estocados por tipo de tecido \n4 - Tipos de tecido sem estoque \n5 - Quantidade total de rolos de tecido estocados \n6 - Quantidade em metros quadrados estocados \n0 - Fim\n\n");
         scanf("%d", &input);
     }
     switch (input)
