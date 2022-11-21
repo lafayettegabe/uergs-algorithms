@@ -1,3 +1,5 @@
+/* em duvida se entendi certo o enunciado dessa */
+
 #include <stdio.h>
 
 void mostrar(char arr[4][4]);
