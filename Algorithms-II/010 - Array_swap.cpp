@@ -15,6 +15,16 @@ int main() {
         }
     }
 
+    // show
+    for(int i = 0; i < 4; i++) {
+        for(int j = 0; j < 4; j++) {
+            printf("%d ", arr[i][j]);
+        }
+        printf("\n");
+    }
+
+	printf("\n");
+
     // swap
     for(int i = 0; i < 4; i++) {
         int temp = arr[0][i];
